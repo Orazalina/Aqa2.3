@@ -20,7 +20,7 @@ public class PostmanEcho {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("Привет"))
+                .body("data", equalTo("Привет Hi"))
                 .body(matchesJsonSchemaInClasspath("accounts.schema.json"))
         ;
 
